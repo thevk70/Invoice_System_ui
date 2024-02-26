@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: brown; */
+}
+.sale_form{
+    padding: 3% 5%;
+    border-radius: 10px;
+    background-color: rgb(179, 226, 226);
+}
+.Title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+input{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    height: 1.9rem;
+    width: 100%;
+    border: none;
+}
+.btn{
+    border: 1px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 46%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-left: 1%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Record</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sale_form">
+        <h2 class="Title">Invoice Detail</h2>
+        <div>
+          <label for="itemName">Item name:</label>
+          <input type="text" id="ItemName" name="itemName" /><br /><br />
+          <label for="itemDesc">Item Description:</label>
+          <input type="text" id="ItemDesc" name="itemDesc" /><br /><br />
+          <label for="quantity">Quantity:</label>
+          <input type="text" id="Quantity" name="quantity" /><br /><br />
+          <label for="rate">Rate:</label>
+          <input type="text" id="Rate" name="rate" /><br /><br />
+          <button class="btn"  onclick="postInvoice()">Add Item</button>
+          <a href="invoice.html"><button class="btn" onclick="logInvoice()">View Invoice</button></a>
+        </div>
+      </div>
+    </div>
+    <button type="button" onclick="logInvoice()">submit</button>
+    <script src="script.js"></script>
+  </body>
+</html>
